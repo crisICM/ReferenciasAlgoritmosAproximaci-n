@@ -4,99 +4,134 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Referencias - Empaquetamiento de ciclos dirigidos de peso máximo</title>
-  <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #ffffff;
+      color: #1f2937;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 2.5rem 1.25rem;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: 1.85rem;
+      font-weight: 700;
+      margin: 0 0 0.5rem 0;
+      color: #111827;
+    }
+    .subtitle {
+      font-size: 1.15rem;
+      color: #4b5563;
+      margin: 0 0 1rem 0;
+      font-weight: 500;
+    }
+    .meta {
+      font-size: 0.95rem;
+      color: #4b5563;
+    }
+    .meta p {
+      margin: 0.25rem 0;
+    }
+    ol.references-list {
+      padding-left: 1.25rem;
+      margin: 0;
+    }
+    ol.references-list li {
+      margin-bottom: 1.5rem;
+      padding-left: 0.5rem;
+    }
+    a {
+      color: #1d4ed8;
+      text-decoration: underline;
+      word-break: break-word;
+    }
+    a:hover {
+      color: #1e40af;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      background-color: #f3f4f6;
+      color: #374151;
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      margin-right: 0.35rem;
+      border: 1px solid #e5e7eb;
+    }
+    .note {
+      display: block;
+      margin-top: 0.4rem;
+      font-size: 0.9rem;
+      color: #4b5563;
+      font-style: italic;
     }
   </style>
 </head>
-<body class="bg-white text-gray-900 antialiased min-h-screen py-10 px-4 sm:px-6 lg:px-8">
-  <main class="max-w-3xl mx-auto">
-    <header class="border-b border-gray-200 pb-6 mb-8">
-      <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-        Referencias
-      </h1>
-      <h2 class="mt-2 text-xl font-medium text-gray-700">
-        Empaquetamiento de ciclos dirigidos de peso máximo
-      </h2>
-      <div class="mt-4 text-sm text-gray-600 space-y-1">
-        <p><span class="font-semibold text-gray-800">Autor:</span> Cristofer Mamani</p>
-        <p><span class="font-semibold text-gray-800">Curso:</span> Algoritmos de Aproximación, Heurísticas y Aplicaciones</p>
+<body>
+  <div class="container">
+    <header>
+      <h1>Referencias</h1>
+      <div class="subtitle">Empaquetamiento de ciclos dirigidos de peso máximo</div>
+      <div class="meta">
+        <p><strong>Autor:</strong> Cristofer Mamani</p>
+        <p><strong>Curso:</strong> Algoritmos de Aproximación, Heurísticas y Aplicaciones</p>
       </div>
     </header>
 
-    <ol class="space-y-6 text-base leading-relaxed">
-      <!-- Referencia [1] -->
-      <li class="pl-2 border-l-2 border-gray-200 hover:border-gray-400">
-        <span class="font-semibold text-gray-800">[1]</span>
-        P. Biró, D. F. Manlove y R. Rizzi (2009).
-        <a href="https://doi.org/10.1142/S1793830909000373" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline font-medium">
-          Maximum weight cycle packing in directed graphs, with application to kidney exchange programs
-        </a>.
-        <span class="italic">Discrete Mathematics, Algorithms and Applications</span>, 1(4), 499–517.
-      </li>
-
-      <!-- Referencia [2] -->
-      <li class="pl-2 border-l-2 border-gray-200 hover:border-gray-400">
-        <span class="font-semibold text-gray-800">[2]</span>
-        E. M. Arkin y R. Hassin (1998).
-        <a href="https://doi.org/10.1287/moor.23.3.640" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline font-medium">
-          On local search for weighted k-set packing
-        </a>.
-        <span class="italic">Mathematics of Operations Research</span>, 23(3), 640–648.
-      </li>
-
-      <!-- Referencia [3] -->
-      <li class="pl-2 border-l-2 border-gray-200 hover:border-gray-400">
-        <span class="font-semibold text-gray-800">[3]</span>
-        P. Berman (2000).
-        <a href="https://doi.org/10.1007/3-540-44985-X_19" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline font-medium">
-          A d/2 approximation for maximum weight independent set in d-claw free graphs
-        </a>.
-        SWAT 2000, <span class="italic">Lecture Notes in Computer Science</span> 1851, 214–219.
-      </li>
-
-      <!-- Referencia [4] -->
-      <li class="pl-2 border-l-2 border-gray-200 hover:border-gray-400">
-        <span class="font-semibold text-gray-800">[4]</span>
-        T. Thiery y J. Ward (2023).
-        <a href="https://doi.org/10.1137/1.9781611977554.ch42" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline font-medium">
-          An improved approximation for maximum weighted k-set packing
-        </a>.
-        SODA 2023, 1138–1162.
-      </li>
-
-      <!-- Referencia [5] -->
-      <li class="pl-2 border-l-2 border-gray-200 hover:border-gray-400">
-        <span class="font-semibold text-gray-800">[5]</span>
-        T. F. Thiery (2023).
-        <a href="https://qmro.qmul.ac.uk/xmlui/handle/123456789/90376" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline font-medium">
-          Approximation Algorithms for Independence Systems
-        </a>.
-        Tesis doctoral, Queen Mary University of London. Capítulo 3 citado en el informe.
-      </li>
-
-      <!-- Referencia [6] -->
-      <li class="pl-2 border-l-2 border-gray-200 hover:border-gray-400">
-        <span class="font-semibold text-gray-800">[6]</span>
-        N. Singer y T. Thiery (2026).
-        <a href="https://arxiv.org/abs/2607.00843" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline font-medium">
-          Submodular maximization over many matroids via ordered local search
-        </a>.
-        <span class="inline-block bg-gray-100 text-gray-800 text-xs px-2 py-0.5 rounded font-semibold border border-gray-300">Preprint</span>, arXiv:2607.00843.
-      </li>
-
-      <!-- Referencia [7] -->
-      <li class="pl-2 border-l-2 border-gray-200 hover:border-gray-400">
-        <span class="font-semibold text-gray-800">[7]</span>
-        W. Tong y Y. Xu (2026).
-        <a href="https://arxiv.org/abs/2610.10036" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline font-medium">
-          Breaking the √3 barrier for maximum weighted 3-set packing
-        </a>.
-        <span class="inline-block bg-gray-100 text-gray-800 text-xs px-2 py-0.5 rounded font-semibold border border-gray-300">Preprint</span>, arXiv:2610.10036.
-      </li>
-    </ol>
-  </main>
+    <main>
+      <ol class="references-list">
+        <li>
+          P. Biró, D. F. Manlove y R. Rizzi (2009).
+          <a href="https://doi.org/10.1142/S1793830909000373" target="_blank" rel="noopener noreferrer">Maximum weight cycle packing in directed graphs, with application to kidney exchange programs</a>.
+          <em>Discrete Mathematics, Algorithms and Applications</em>, 1(4), 499–517.
+        </li>
+        <li>
+          E. M. Arkin y R. Hassin (1998).
+          <a href="https://doi.org/10.1287/moor.23.3.640" target="_blank" rel="noopener noreferrer">On local search for weighted k-set packing</a>.
+          <em>Mathematics of Operations Research</em>, 23(3), 640–648.
+        </li>
+        <li>
+          P. Berman (2000).
+          <a href="https://doi.org/10.1007/3-540-44985-X_19" target="_blank" rel="noopener noreferrer">A d/2 approximation for maximum weight independent set in d-claw free graphs</a>.
+          <em>SWAT 2000, Lecture Notes in Computer Science</em> 1851, 214–219.
+        </li>
+        <li>
+          T. Thiery y J. Ward (2023).
+          <a href="https://doi.org/10.1137/1.9781611977554.ch42" target="_blank" rel="noopener noreferrer">An improved approximation for maximum weighted k-set packing</a>.
+          <em>SODA 2023</em>, 1138–1162.
+        </li>
+        <li>
+          T. F. Thiery (2023).
+          <a href="https://qmro.qmul.ac.uk/xmlui/handle/123456789/90376" target="_blank" rel="noopener noreferrer">Approximation Algorithms for Independence Systems</a>.
+          Tesis doctoral, Queen Mary University of London. Capítulo 3 citado en el informe.
+          <span class="note">
+            (Nota: el enlace institucional original que conduce a la tesis doctoral actualmente no funciona / se encuentra inaccesible, pero el resultado es mencionado directamente por el autor en su <a href="https://theophilethiery.github.io/" target="_blank" rel="noopener noreferrer">página web personal</a>).
+          </span>
+        </li>
+        <li>
+          <span class="badge">Preprint</span>
+          N. Singer y T. Thiery (2026).
+          <a href="https://arxiv.org/abs/2607.00843" target="_blank" rel="noopener noreferrer">Submodular maximization over many matroids via ordered local search</a>.
+          Preprint, arXiv:2607.00843.
+        </li>
+        <li>
+          <span class="badge">Preprint</span>
+          W. Tong y Y. Xu (2026).
+          <a href="https://arxiv.org/abs/2610.10036" target="_blank" rel="noopener noreferrer">Breaking the √3 barrier for maximum weighted 3-set packing</a>.
+          Preprint, arXiv:2610.10036.
+        </li>
+      </ol>
+    </main>
+  </div>
 </body>
 </html>
